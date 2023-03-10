@@ -2,7 +2,7 @@
 
 This is a simple web application built with Django that allows users to perform CRUD (Create, Read, Update, Delete) operations on a database of drivers and cars.
 
-Developing process :
+# Developing process
 
 - Define the requirements: Start by defining the requirements for the application. This involves determining the features and functionality needed, such as creating, reading, updating, and deleting records for both cars and drivers, and creating a user interface to display and interact with the data.
 
@@ -14,12 +14,12 @@ Developing process :
 
 - Define URLs: Define URLs for the different views so that users can navigate to the appropriate pages.
 
-Purpose :
+# Purpose
 
 The purpose of the application would be to help manage and organize data related to F1 cars and drivers, making it easier for users to access and manipulate this information as needed. Allowing users to perform basic CRUD (Create, Read, Update, Delete)
 
 
-Models : 
+# Models
 
 class Driver(models.Model):  
         number = models.IntegerField();  
