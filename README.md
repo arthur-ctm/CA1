@@ -19,16 +19,16 @@ The purpose of the application would be to help manage and organize data related
 
 Models : 
 
-class Driver(models.Model):
-    number = models.IntegerField();
-    first_name = models.CharField(max_length=200)
-    last_name = models.CharField(max_length=200)
-    age = models.IntegerField()
+class Driver(models.Model):  
+    number = models.IntegerField();  
+    first_name = models.CharField(max_length=200)  
+    last_name = models.CharField(max_length=200)  
+    age = models.IntegerField()  
     
 class Car(models.Model):
-    team = models.CharField(max_length=200)
-    colour = models.CharField(max_length=200)
-    driver = models.ForeignKey(Driver, on_delete=models.CASCADE)
-    horses = models.IntegerField()
-    aero = models.IntegerField()
-    safety = models.IntegerField()
+    team = models.CharField(max_length=200)  
+    colour = models.CharField(max_length=200)  
+    driver = models.ForeignKey(Driver, on_delete=models.CASCADE)  
+    horses = models.IntegerField()  
+    aero = models.IntegerField()  
+    safety = models.IntegerField()  
